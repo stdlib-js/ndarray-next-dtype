@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-next-dtype
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-next-dtype/tags). For example,
-
-```javascript
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@v0.1.0-deno/mod.js';
+var nextDataType = require( '@stdlib/ndarray-next-dtype' );
 ```
 
 #### nextDataType( \[dtype] )
@@ -111,8 +122,8 @@ var out = nextDataType( 'foo' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@deno/mod.js';
+var dtypes = require( '@stdlib/ndarray-dtypes' );
+var nextDataType = require( '@stdlib/ndarray-next-dtype' );
 
 var DTYPES;
 var dt;
@@ -165,7 +176,7 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -195,8 +206,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-next-dtype.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-next-dtype
 
-[test-image]: https://github.com/stdlib-js/ndarray-next-dtype/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/ndarray-next-dtype/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/ndarray-next-dtype/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-next-dtype/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-next-dtype/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-next-dtype?branch=main
@@ -227,11 +238,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/deno
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/ndarray-promotion-rules/tree/deno
+[@stdlib/ndarray/promotion-rules]: https://github.com/stdlib-js/ndarray-promotion-rules
 
-[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts/tree/deno
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts
 
 <!-- </related-links> -->
 
