@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@deno/mod.js';
+import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@v0.2.1-deno/mod.js';
 ```
 
 #### nextDataType( \[dtype] )
@@ -107,7 +107,7 @@ var out = nextDataType( 'foo' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@deno/mod.js';
+import nextDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-next-dtype@v0.2.1-deno/mod.js';
 
 var DTYPES;
 var dt;
